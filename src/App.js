@@ -8,7 +8,7 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route index element={<WeatherData />} />
+        <Route path='/Metrics-Application' element={<WeatherData />} />
         <Route path="/city/:townName" element={<TownInfo />} />
       </Routes>
 

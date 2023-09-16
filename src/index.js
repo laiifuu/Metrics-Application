@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
 
-    <BrowserRouter basename="/Metrics-application">
+    <BrowserRouter basename="/Metrics-Application">
       <App />
     </BrowserRouter>
 
